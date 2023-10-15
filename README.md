@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# List Move Problem - ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple ReactJS application for moving list items between two lists using checkboxes. This project was originally created as part of a meta interview problem.
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Welcome to the META React JS interview.
 
-### `npm start`
+Your task is to build a transfer list component.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A transfer list allows users to pass items from one list to another.
+UX has provided a mock up.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The transfer list should consists of two lists with directional actions buttons.
+The user should be able to select one or multiple items and move the item 
+to the other list by clicking the action buttons.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+This ReactJS application provides a user interface for moving items between two lists using checkboxes. It's a common scenario where you have two lists, and you want to select items from one list and move them to the other.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The application consists of two lists, List 1 and List 2, each containing a set of checkboxes associated with list items. You can:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Select checkboxes in List 1 and click the `>>>>>>` button to move the selected items to List 2.
+- Select checkboxes in List 2 and click the `<<<<<<` button to move the selected items back to List 1.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The state of the checkboxes and the lists is managed using React state hooks, and the UI components are styled using Material-UI.
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To run this application locally, you need to have Node.js and npm (Node Package Manager) installed on your system. If you don't have them, you can download and install Node.js from the official [Node.js website](https://nodejs.org/).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Follow these steps to get the project up and running:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository to your local machine:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/your-username/list-move-react.git
